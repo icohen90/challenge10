@@ -20,7 +20,7 @@ This screenshot shows that all 4 tests were passed. <br>
 This screenshot shows the application being run. <br>
 <video controls width="250">
 
-    <source src="https://github.com/icohen90/challenge10/blob/main/img/application.mp4"
+    <source src="https://github.com/icohen90/challenge10/blob/main/img/application.webm"
             type="video/webm">
 
     <source src="https://github.com/icohen90/challenge10/blob/main/img/application.mp4"
