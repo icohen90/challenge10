@@ -9,7 +9,7 @@ function createEmployee(employees) {
             case 'Manager':
                 htmlCard += `
                 <div class="card col-sm-6 col-md-4 col-lg-3">
-                    <div class="card-header">
+                    <div class="card-header text-center">
                         <h2>${element.getName()}</h2>
                         <h3>Manager <i class="bi bi-diagram-3"></i></h3>
                     </div>
@@ -25,7 +25,7 @@ function createEmployee(employees) {
             case 'Engineer':
                 htmlCard +=`
                 <div class="card col-sm-6 col-md-4 col-lg-3">
-                    <div class="card-header">
+                    <div class="card-header text-center">
                         <h2>${element.getName()}</h2>
                         <h3>Engineer <i class="bi bi-tools"></i></h3>
                     </div>
@@ -40,7 +40,7 @@ function createEmployee(employees) {
             case 'Intern':
                 htmlCard +=`
                 <div class="card col-sm-6 col-md-4 col-lg-3">
-                    <div class="card-header">
+                    <div class="card-header text-center">
                         <h2>${element.getName()}</h2>
                         <h3>Intern <i class="bi bi-pencil"></i></h3>
                     </div>
@@ -70,7 +70,7 @@ function generateHTML(employees) {
       </head>
     <body>
         <div class="container-fluid bg-success bg-gradient text-white">
-            <h1 class="container-fluid text-center">My Team </h1>
+            <h1 class="container-fluid text-center p-4">My Team </h1>
         </div>
         <div class="container-fluid">
     
